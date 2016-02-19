@@ -1,0 +1,135 @@
+body{
+    background-image:url(../img/back.jpg);
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+}
+.bottomleft {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: p 20s infinite;
+    -webkit-animation-direction: normal;
+    animation: p 20s infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes p {
+    0%   {left: 5%; top: 800px;}
+    100% {left: 5%; top: -150px;}
+}
+.bottomleft1 {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: p1 10s infinite;
+    -webkit-animation-direction: normal;
+    animation: p1 10s infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes p1 {
+    0%   {left: 15%; top: 800px;}
+    100% {left: 15%; top: -150px;}
+}
+.bottomright{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: p2 15s infinite;
+    -webkit-animation-direction: normal;
+    animation: p2 15s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes p2 {
+    0%   {right: 15%; top: 800px;}
+    100% {right: 15%; top: -150px;}
+}
+.bottomright1{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: p3 25s infinite;
+    -webkit-animation-direction: normal;
+    animation: p3 25s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes p3 {
+    0%   {right: 5%; top: 800px;}
+    100% {right: 5%; top: -150px;}
+}
+
+.bottomleft2 {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: b 30s infinite;
+    -webkit-animation-direction: normal;
+    animation: b 30s infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes b {
+    0%   {left: 10%; top: 800px;}
+    100% {left: 10%; top: -150px;}
+}
+.bottomleft3 {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: b1 17s infinite;
+    -webkit-animation-direction: normal;
+    animation: b1 17s infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes b1 {
+    0%   {left: 20%; top: 800px;}
+    100% {left: 20%; top: -150px;}
+}
+.bottomright2{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: b2 12s infinite;
+    -webkit-animation-direction: normal;
+    animation: b2 12s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes b2 {
+    0%   {right: 10%; top: 800px;}
+    100% {right: 10%; top: -150px;}
+}
+.bottomright3{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: b3 22s infinite;
+    -webkit-animation-direction: normal;
+    animation: b3 22s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes b3 {
+    0%   {right: 20%; top: 800px;}
+    100% {right: 20%; top: -150px;}
+}
+
+.topaz{
+    width: 100px;
+    height: auto;
+    position: relative;
+    -webkit-animation: f 22s infinite;
+    -webkit-animation-direction: normal;
+    animation: f 22s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes f {
+    0%  {transform: rotate(0deg) translateX(0px);}
+    100% {transform: rotate(360deg) translateX(0px);}
+}
