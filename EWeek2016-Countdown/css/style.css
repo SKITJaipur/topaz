@@ -8,6 +8,9 @@ body {
     font: 13px arial;
     background: transparent url(../img/body-bg.png);
 }
+.time{
+	font-size:30px;
+}
 a {
     color: #205aaf;
     text-decoration: none;
@@ -73,7 +76,7 @@ body.degrade #gradient {
     z-index: 99;
 }
 #canvas-content {
-    margin: 100px auto 0 auto;
+    margin: 0px auto 0 auto;
     width: 930px;
     z-index: 99;
     position: relative;
@@ -114,7 +117,7 @@ body.degrade #gradient {
     text-decoration: none;
 }
 #index #canvas-content {
-    margin-top: 300px;
+    /*margin-top: 300px;*/
     color: #898989;
     font-family: 'Droid Sans';
 }

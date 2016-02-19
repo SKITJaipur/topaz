@@ -818,6 +818,8 @@ if (!window.requestAnimationFrame) {
                         'js/Tween.js',
                         'js/countdown-entities.js'],
                        function() {
+						 io.el('time').style.display = 'none';
+						 io.el('banner').style.display = 'none';
                          io.el('wrapper').style.background =  'none';
                          io.el('canvas-content').innerHTML = '';
                          io.injectScript('js/countdown-finale.js');
@@ -839,8 +841,9 @@ if (!window.requestAnimationFrame) {
   /**
    * Get the date we're counting down to.
    */
-  var countdownTo = new Date().getTime() + 5000;
-  var countdownTo = new Date(2016, 1, 21, 9, 0 ,0 ,0 );
+  var countdownTo = new Date().getTime()+50000;
+  //var countdownTo = new Date(2016, 1, 21 , 9, 30, 0, 0);
+ 
   /**
    * Buckets for the Digits.
    */
@@ -884,7 +887,7 @@ if (!window.requestAnimationFrame) {
    * Default Countdown.
    */
   countdownConfigs.push({
-    gravity: { x: 0, y: 100 },
+    gravity: { x: 0, y: 400 },
     colors: ['265897', '265897', '265897', '',
              '13acfa', '13acfa', '',
              'c0000b', 'c0000b', '',
