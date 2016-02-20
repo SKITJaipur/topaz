@@ -10,6 +10,19 @@ body{
     top: 0;
     position: fixed;
 }
+.circleleft{
+	margin-top:390px;
+	margin-left:20%;
+	z-index:6;
+}
+.circleright{
+	margin-top:390px;
+	margin-left:23%;
+	z-index:9;
+}
+.ma{
+	z-index:15;
+}
 .bottomleft {
     width: 80px;
     height: auto;
@@ -128,6 +141,72 @@ body{
     -webkit-animation-direction: normal;
     animation: f 22s infinite;
     animation-direction: normal;
+}
+
+.cloud1{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: c1 30s infinite;
+    -webkit-animation-direction: normal;
+    animation: c1 30s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes c1 {
+    0%   {left: 0%; top: 200px;}
+    100% {left: 100%; top: 200px;}
+}
+.cloud2{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: c2 30s infinite;
+    -webkit-animation-direction: normal;
+    animation: c2 30s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes c2 {
+    0%   {right: 0%; top: 360px;}
+    100% {right: 100%; top: 360px;}
+}
+.cloud3{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: c3 25s infinite;
+    -webkit-animation-direction: normal;
+    animation: c3 25s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes c3 {
+    0%   {right: 0%; top: 100px;}
+    100% {right: 100%; top: 100px;}
+}
+.cloud4{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: c4 20s infinite;
+    -webkit-animation-direction: normal;
+    animation: c4 20s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes c4 {
+    0%   {left: 0%; top: 280px;}
+    100% {left: 100%; top: 280px;}
+}
+.cloud5{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    -webkit-animation: c5 35s infinite;
+    -webkit-animation-direction: normal;
+    animation: c5 35s infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes c5 {
+    0%   {left: 0%; top: 50px;}
+    100% {left: 100%; top: 50px;}
 }
 @-webkit-keyframes f {
     0%  {transform: rotate(0deg) translateX(0px);}
