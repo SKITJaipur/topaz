@@ -842,7 +842,7 @@ if (!window.requestAnimationFrame) {
    * Get the date we're counting down to.
    */
   //var countdownTo = new Date().getTime()+50000;
-  var countdownTo = new Date(2016, 1, 20 , 11, 0, 0, 0);
+  var countdownTo = new Date(2016, 1, 20 , 10, 45, 0, 0);
  
   /**
    * Buckets for the Digits.
